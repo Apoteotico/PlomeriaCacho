@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #EFEFEF;
+}
+
+header {
+  background-color: #FFFFFF;
+  color: #010334;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  max-width: 150px;
+}
+
+.fa-brands{
+  font-size: 1.5rem;
+}
+
+nav i {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+i#instagram{
+  background-color: rgba(235, 75, 168, 0.244);
+}
+
+i#whatsapp{
+  background-color: rgba(0, 255, 0, 0.244);
+}
+
+i#instagram:hover{
+  background-color: rgba(235, 75, 168, 0.418);
+}
+
+i#whatsapp:hover{
+  background-color: rgba(0, 255, 0, 0.418);
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #FFFFFF;
+  color: #2156FA;
+  padding: 20px;
+  text-align: center;
+}
+
+footer nav i {
+  margin: 0 10px;
+}
+
